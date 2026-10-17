@@ -54,13 +54,13 @@ export default function ApplicationPage() {
       <Navbar />
       <PageHeader title="Product Application" imageSeed="applicationbanner" />
 
-      <section className="mx-auto max-w-5xl divide-y divide-ink/10 px-6 py-16">
+      <section className="mx-auto max-w-5xl space-y-6 px-4 py-12 sm:space-y-8 sm:px-6 sm:py-16">
         {categories.map((cat) => (
           <div
             key={cat.name}
-            className="grid grid-cols-1 items-center gap-8 py-10 sm:grid-cols-[220px_1fr] first:pt-0"
+            className="grid grid-cols-1 items-center gap-6 overflow-hidden rounded-xl bg-white shadow-sm transition-shadow hover:shadow-md sm:grid-cols-[220px_1fr] sm:gap-8"
           >
-            <div className="aspect-[4/3] overflow-hidden">
+            <div className="aspect-[4/3] overflow-hidden sm:aspect-auto sm:h-full">
               <img
                 src={`https://picsum.photos/seed/${cat.seed}/500/400`}
                 alt={cat.name}

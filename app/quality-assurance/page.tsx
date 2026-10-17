@@ -30,7 +30,7 @@ export default function QualityAssurancePage() {
       <Navbar />
       <PageHeader title="Quality Assurance" imageSeed="qualitybanner" />
 
-      <section className="mx-auto max-w-4xl px-6 py-16">
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
         <p className="text-ink/70">
           SteelCraft Industries works toward one outcome: pipes and tubes
           that meet the specification you ordered, every time, delivered on
@@ -73,7 +73,7 @@ export default function QualityAssurancePage() {
           ))}
         </ul>
 
-        <div className="mt-12 border border-ink/10 bg-white p-6">
+        <div className="mt-10 border border-ink/10 bg-white p-4 sm:mt-12 sm:p-6">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-copper">
             Certification
           </p>

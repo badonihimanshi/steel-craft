@@ -30,16 +30,16 @@ export default function ProductApplications() {
   };
 
   return (
-    <section id="applications" className="bg-canvas py-20">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="applications" className="bg-canvas py-12 sm:py-16 lg:py-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="text-center">
-          <h2 className="font-display text-3xl font-semibold text-graphite sm:text-4xl">
+          <h2 className="font-display text-2xl font-semibold text-graphite sm:text-4xl">
             Product <span className="text-copper">Applications</span>
           </h2>
           <div className="mx-auto mt-3 h-0.5 w-12 bg-copper" />
         </div>
 
-        <div className="relative mt-12">
+        <div className="relative mt-8 sm:mt-12">
           <div
             ref={trackRef}
             className="flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-smooth pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
@@ -48,7 +48,7 @@ export default function ProductApplications() {
               <div
                 key={app.name}
                 data-card
-                className="group w-[75%] flex-none snap-start sm:w-[46%] lg:w-[23.5%]"
+                className="group w-[75%] flex-none snap-start overflow-hidden rounded-xl shadow-sm transition-shadow hover:shadow-md sm:w-[46%] lg:w-[23.5%]"
               >
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
@@ -57,7 +57,7 @@ export default function ProductApplications() {
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="border border-t-0 border-ink/10 bg-white p-5">
+                <div className="bg-white p-4 sm:p-5">
                   <h3 className="font-display text-base font-semibold text-graphite">
                     {app.name}
                   </h3>

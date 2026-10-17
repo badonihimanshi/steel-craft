@@ -8,14 +8,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        graphite: "#1F2937",
-        "graphite-dark": "#14181F",
-        steel: "#35607A",
-        "steel-light": "#4C7C9B",
-        copper: "#B8703A",
-        "copper-light": "#D08A50",
-        canvas: "#F5F3EF",
-        ink: "#2B2F33",
+        graphite: "#0F3D4A",
+        "graphite-dark": "#082830",
+        steel: "#2E7D8C",
+        "steel-light": "#4FA3B2",
+        copper: "#D9892B",
+        "copper-light": "#EDA54B",
+        canvas: "#F7F4EE",
+        ink: "#1E2B30",
       },
       fontFamily: {
         display: ["var(--font-oswald)", "sans-serif"],

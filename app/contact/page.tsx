@@ -17,8 +17,8 @@ export default function ContactPage() {
       <Navbar />
       <PageHeader title="Contact Us" imageSeed="contactbanner" />
 
-      <section className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
             <h2 className="font-display text-xl font-semibold text-graphite">
               Get in Touch
@@ -42,7 +42,9 @@ export default function ContactPage() {
 
               <div className="flex items-start gap-3 text-ink/70">
                 <Phone size={18} className="mt-0.5 flex-none text-copper" />
-                <span>+91-98XXX-XXXXX, +91-9XXXX-XXXXX</span>
+                <a href="tel:+919354077813" className="hover:text-copper">
+                  +91 9354077813
+                </a>
               </div>
 
               <div className="flex items-start gap-3 text-ink/70">

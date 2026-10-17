@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Oswald, Inter, IBM_Plex_Mono } from "next/font/google";
+import { Sora, DM_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const oswald = Oswald({
+const sora = Sora({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
   variable: "--font-oswald",
 });
 
-const inter = Inter({
+const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-inter",
 });
@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${oswald.variable} ${inter.variable} ${plexMono.variable} font-body`}
+        className={`${sora.variable} ${dmSans.variable} ${plexMono.variable} font-body`}
       >
         {children}
       </body>

@@ -2,21 +2,21 @@ export default function FounderSection() {
   return (
     <section
       id="founder"
-      className="relative overflow-hidden bg-graphite-dark py-20 text-white"
+      className="relative overflow-hidden bg-graphite-dark py-12 text-white sm:py-16 lg:py-20"
     >
       <div
         className="absolute inset-0 opacity-60"
         style={{
           backgroundImage:
-            "repeating-linear-gradient(115deg, #24303C 0px, #24303C 2px, #1B242D 2px, #1B242D 64px)",
+            "repeating-linear-gradient(115deg, #14505F 0px, #14505F 2px, #0C3640 2px, #0C3640 64px)",
         }}
       />
-      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2">
+      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 sm:gap-12 sm:px-6 lg:grid-cols-2">
         <div>
           <span className="font-mono text-xs uppercase tracking-[0.3em] text-copper-light">
             About Founder
           </span>
-          <h2 className="mt-2 font-display text-3xl font-semibold sm:text-4xl">
+          <h2 className="mt-2 font-display text-2xl font-semibold sm:text-4xl">
             Our Founder
           </h2>
           <p className="mt-6 max-w-md text-white/70">
@@ -40,9 +40,9 @@ export default function FounderSection() {
           <img
             src="https://picsum.photos/seed/founderportrait/700/560"
             alt="Founder portrait placeholder"
-            className="h-80 w-full object-cover"
+            className="h-64 w-full object-cover sm:h-80"
           />
-          <p className="border-t border-white/10 bg-white px-5 py-3 font-display text-base font-semibold text-graphite">
+          <p className="border-t border-white/10 bg-white px-4 py-3 font-display text-sm font-semibold text-graphite sm:px-5 sm:text-base">
             Founder Name{" "}
             <span className="font-body text-sm font-normal text-ink/60">
               (placeholder — update with real name &amp; title)

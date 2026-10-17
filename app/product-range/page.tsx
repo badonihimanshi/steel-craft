@@ -38,7 +38,7 @@ export default function ProductRangePage() {
       <Navbar />
       <PageHeader title="Product Range" imageSeed="rangebanner" />
 
-      <section className="mx-auto max-w-5xl px-6 py-16">
+      <section className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <div className="overflow-x-auto border border-ink/10">
           <table className="w-full min-w-[640px] border-collapse text-left">
             <thead>

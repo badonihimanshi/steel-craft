@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Route                | What's on it                                          |
 |-----------------------|--------------------------------------------------------|
-| `/`                   | Home — hero, spec strip, welcome, products, founder, director's message, applications carousel |
+| `/`                   | Home — hero, spec strip, products, founder, applications carousel |
 | `/quality-assurance`  | Commitments + testing-stages checklist, ISO callout    |
 | `/process-chart`      | Intro paragraph + manufacturing flow diagram            |
 | `/application`        | Application categories, each with photo + bullet list   |
@@ -43,10 +43,8 @@ components/
   Navbar.tsx                 # sticky nav, active-page highlight, enquiry CTA
   Hero.tsx                   # banner with carousel controls
   SpecStrip.tsx               # scrolling strip of steel standards (ASTM/ISO/etc.)
-  WelcomeSection.tsx           # intro blurb + facility photo + cert badge
   ProductsPreview.tsx           # "Our Products" grid
   FounderSection.tsx             # dark panel, founder photo + bio (placeholder)
-  DirectorMessage.tsx             # centered message block
   ProductApplications.tsx          # homepage scrollable application cards
   PageHeader.tsx                    # reusable banner+title used by every subpage
   ProcessFlow.tsx                    # the process-chart diagram
@@ -58,8 +56,8 @@ components/
 - **Phone number** in `TopBar.tsx` and `app/contact/page.tsx`
 - **Logo mark** ("SC" box) in `TopBar.tsx` — swap for a real logo image/SVG
 - **Facility photos** everywhere — currently either a CSS pattern (`Hero.tsx`)
-  or picsum.photos placeholder images (`WelcomeSection.tsx`,
-  `ProductApplications.tsx`, `app/application/page.tsx`, and the
+  or picsum.photos placeholder images (`ProductApplications.tsx`,
+  `app/application/page.tsx`, and the
   `PageHeader` banner used by every subpage)
 - **Founder photo + bio** in `FounderSection.tsx` — written as generic
   placeholder copy on purpose (the reference site names a real individual;

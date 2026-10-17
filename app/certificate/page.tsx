@@ -18,7 +18,7 @@ export default function CertificatePage() {
       <Navbar />
       <PageHeader title="Certificate" imageSeed="certbanner" />
 
-      <section className="mx-auto max-w-4xl px-6 py-16">
+      <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
         <p className="text-ink/70">
           Scanned copies of our certifications go here — quality management
           system certificates, authorised-partner / MOU documents, and any
@@ -27,7 +27,7 @@ export default function CertificatePage() {
 
         {/* Placeholder certificate frame — replace with a real scanned
             certificate image (see README for where to drop it in) */}
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 border-2 border-dashed border-steel/30 bg-white p-16 text-center">
+        <div className="mt-8 flex flex-col items-center justify-center gap-4 border-2 border-dashed border-steel/30 bg-white p-6 text-center sm:mt-10 sm:p-16">
           <Award size={40} className="text-copper" strokeWidth={1.5} />
           <p className="font-display text-lg font-semibold text-graphite">
             Certificate placeholder

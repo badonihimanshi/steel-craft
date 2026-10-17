@@ -18,7 +18,7 @@ export default function ProcessChartPage() {
       <Navbar />
       <PageHeader title="Process Chart" imageSeed="processbanner" />
 
-      <section className="mx-auto max-w-5xl px-6 py-16">
+      <section className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16">
         <p className="text-ink/70">
           Our stainless steel welded tubes are produced on purpose-built
           tube mills. Strip is slit to precise width, then continuously

@@ -12,7 +12,7 @@ const specs = [
 export default function SpecStrip() {
   const row = [...specs, ...specs];
   return (
-    <div className="overflow-hidden border-y border-copper/30 bg-steel">
+    <div className="hidden overflow-hidden border-y border-copper/30 bg-steel md:block">
       <div className="flex animate-[scroll_28s_linear_infinite] gap-10 whitespace-nowrap py-2.5">
         {row.map((spec, i) => (
           <span
